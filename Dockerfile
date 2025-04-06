@@ -16,4 +16,4 @@ RUN python -m venv .venv && \
 ENV PATH="/app/.venv/bin:$PATH"
 
 # Run tests
-CMD ["make", "test"]
+CMD ["python", "main.test.py"]
