@@ -30,4 +30,4 @@ jobs:
       # Push the Docker image to GitHub Container Registry
       - name: Push Docker image
         run: |
-          docker push ghcr.io/ece59500-scrapyproject/zae/zae:latest:latest
+          docker push ghcr.io/ece59500-scrapyproject/zae/zae:latest
