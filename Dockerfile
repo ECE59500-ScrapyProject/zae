@@ -10,7 +10,7 @@ COPY . /app
 # Install dependencies
 RUN python -m venv .venv && \
     .venv/bin/pip install --upgrade pip && \
-    .venv/bin/pip install -r packages.txt
+    .venv/bin/pip install --upgrade -r packages.txt &&
 
 # Set the virtual environment as the default Python
 ENV PATH="/app/.venv/bin:$PATH"
