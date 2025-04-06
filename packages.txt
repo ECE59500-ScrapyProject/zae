@@ -1,3 +1,2 @@
-jwt=2.13.0
-datetime
+PyJWT==2.6.0
 cryptography
